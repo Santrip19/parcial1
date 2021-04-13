@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./global.css" />
+        <title>Actividad 03</title>
+        <meta charset="UTF-8" />
+    </head>
+<body>
+    <header class="header">
+        Atomix Tech
+    </header><br>
+    
+    <div class="container">
+        <div style="text-align: center;">
+            <h2>!Registrate!!</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form__control">
+                <label>Nombre:</label>
+                <input
+                placeholder="Ingresa tu nombre.."
+                id="nombre"
+                />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>  
+                <small>Error message</small>
+            </div>
+            <div class="form__control">
+                <label>Correo Electronico:</label>
+                <input type="email" placeholder="correo@ejemplo.com" 
+                id="correo"
+                />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form__control">
+                <label>Clave:</label>
+                <input type="password" placeholder="clave..." 
+                id="clave"
+                />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form__control">
+                <label>Confirmar clave:</label>
+                <input
+                type="password"
+                placeholder="confirmar clave.."
+                id="confirmarClave"
+                />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button >Registrar</button>
+       
+        </form>
+    </div>
+
+    <!-- Modal registrado -->
+    <div class="modal_container">
+        <div class="modal modal-close">
+          <h1  class="modal-title" >¡Felicitaciones!</h1>
+          <img src="./img/registroExitoso.svg" alt="">
+          <div class="modal_textos">
+            <p class="modal-text">Tu registro ha sido exitoso</p>
+          </div>
+          <div  class="grid_botones">
+           
+            <button class="boton2 close"> ACEPTAR</button>
+          </div>
+        </div>
+      </div>
+
+    <footer class="footer">
+        Todos los derechos reservados Santiago Alba
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
+
